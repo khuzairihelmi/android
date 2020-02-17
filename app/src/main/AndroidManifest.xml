@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.khu.dbmlearning">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo"
+        android:label="M-Learning Database Design"
+        android:roundIcon="@mipmap/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ExerciseDoneActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity">
+            </meta-data>
+        </activity>
+        <activity android:name=".Exercise5Activity"/>
+        <activity android:name=".Exercise4Activity" />
+        <activity android:name=".Exercise3Activity" />
+        <activity android:name=".Exercise2Activity" />
+        <activity android:name=".Exercise1Activity" />
+        <activity android:name=".Quiz3_3Activity" />
+        <activity android:name=".Quiz3Activity" />
+        <activity android:name=".Quiz2_2Activity" />
+        <activity android:name=".Quiz2Activity" />
+        <activity android:name=".Quiz1Activity" />
+        <activity android:name=".Quiz1_1Activity" />
+        <activity android:name=".CardViewQuizActivity" />
+        <activity android:name=".SuggestionActivity" />
+        <activity android:name=".Chapter5_1Activity" />
+        <activity android:name=".Chapter4_1Activity" />
+        <activity android:name=".Chapter3_1Activity" />
+        <activity android:name=".Chapter2_1Activity" />
+        <activity android:name=".noteChapter5Activity" />
+        <activity android:name=".noteChapter4Activity" />
+        <activity android:name=".noteChapter3Activity" />
+        <activity android:name=".PastActivity" />
+        <activity android:name=".noteChapter2Activity" />
+        <activity android:name=".CardViewNoteActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".Chapter1_1Activity" />
+        <activity android:name=".noteChapter1Activity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

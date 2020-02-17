@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CardViewQuizActivity">
+
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:scrollbars="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="950dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/quiz1"
+            android:layout_width="320dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="29dp"
+            android:onClick="Quiz1"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/chapter1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="35dp"
+                    android:fontFamily="casual"
+                    android:text="QUIZ 1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/titleDB1"
+                    android:layout_width="147dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/chapter1"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/imageView2s"
+                    android:fontFamily="casual"
+                    android:gravity="center"
+                    android:text="Fundamentals Of Database Management System"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/imageView2s"
+                    android:layout_width="112dp"
+                    android:layout_height="120dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="33dp"
+                    app:srcCompat="@drawable/contact" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/quiz2"
+            android:layout_width="320dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/quiz1"
+            android:layout_alignStart="@+id/quiz1"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:onClick="Quiz2"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/develop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="35dp"
+                    android:fontFamily="casual"
+                    android:text="QUIZ 2"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/titleDB2"
+                    android:layout_width="147dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/develop"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/imageView2c"
+                    android:fontFamily="casual"
+                    android:gravity="center"
+                    android:text="Relational Data Model"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/imageView2c"
+                    android:layout_width="112dp"
+                    android:layout_height="120dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="33dp"
+                    app:srcCompat="@drawable/contact" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/quiz3"
+            android:layout_width="320dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/quiz2"
+            android:layout_alignStart="@+id/quiz2"
+            android:layout_gravity="center"
+            android:layout_marginTop="41dp"
+            android:onClick="Quiz3"
+            app:cardCornerRadius="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/chapter3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="37dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginEnd="35dp"
+                    android:fontFamily="casual"
+                    android:text="QUIZ 3"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="@android:color/black"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/titleNote3"
+                    android:layout_width="147dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@+id/chapter3"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_toEndOf="@+id/imageView2v"
+                    android:fontFamily="casual"
+                    android:gravity="center"
+                    android:text="Entity Relationship Model"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/imageView2v"
+                    android:layout_width="112dp"
+                    android:layout_height="120dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="33dp"
+                    app:srcCompat="@drawable/contact" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</RelativeLayout>
